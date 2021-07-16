@@ -1,0 +1,50 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.marginutility {
+  margin: 1rem 0;
+}
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  padding: 1rem 3rem;
+  border: none;
+  color: var(--white);
+  background-color: var(--blue);
+  font-size: 1.5rem;
+  border-radius: 3px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 2rem;
+}
+.token {
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
