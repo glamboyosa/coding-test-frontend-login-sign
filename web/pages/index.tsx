@@ -111,7 +111,15 @@ const Home = () => {
       }).showToast();
       setToken(data.split('!')[1].trim());
     } catch (e) {
-      JSON.stringify(e);
+      Toastify({
+        text: e.message,
+        duration: 3000,
+        close: true,
+        gravity: 'top',
+        position: 'center',
+        backgroundColor: '#ff5733',
+        stopOnFocus: true,
+      }).showToast();
     }
   };
   return (
