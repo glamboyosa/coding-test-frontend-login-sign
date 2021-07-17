@@ -61,3 +61,10 @@ cd web && npm install
 #or
 cd web && yarn
 ```
+
+Then run: 
+```bash 
+npm run dev 
+#or 
+yarn dev
+```
